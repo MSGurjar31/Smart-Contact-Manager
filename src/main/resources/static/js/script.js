@@ -3,10 +3,13 @@ console.log("Script Loaded")
 let currentTheme = getTheme();
 console.log(getTheme());
 
+
 document.addEventListener('DOMContentLoaded', () =>{
     changeTheme();
 
 });
+
+console.log(changeTheme);
 
 
 function changeTheme(){
