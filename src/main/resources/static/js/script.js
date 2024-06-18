@@ -9,9 +9,6 @@ document.addEventListener('DOMContentLoaded', () =>{
 
 });
 
-console.log(changeTheme);
-
-
 function changeTheme(){
 
     changePageTheme(currentTheme,currentTheme);
