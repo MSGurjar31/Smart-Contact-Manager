@@ -1,12 +1,62 @@
 <!DOCTYPE html>
-<html lang="en" th:replace="~{base :: parent(~{::#content},~{::title})}">
+<html xmlns:th="http://www.thymeleaf.org" lang="en" th:replace="~{base :: parent(~{::#content},~{::title})}">
 <head>
    <title>Login Page</title>
 </head>
 <body>
     <div id="content">
-        <h1 >Welcome to Login page</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi aliquid distinctio, quisquam necessitatibus nobis excepturi quod perspiciatis ut voluptatibus? Quidem, officia veniam incidunt obcaecati nobis temporibus veritatis hic non enim.</p>
+        
+            
+            <div class="max-w-sm mx-auto">
+                <div href="#" class="block p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
+
+                    <h5 class="mb-2 text-2xl text-center font-bold tracking-tight text-gray-900 dark:text-white">Login</h5>
+                    <p class="font-normal text-gray-700 dark:text-gray-400"></p>
+               
+                    <div class="mb-5 mt-2">
+                        <label for="Name" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your Name</label>
+                        <input type="text" id="name" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="name" required />
+                    </div>
+
+                    <div class="mb-5 mt-2">
+                        <label for="email" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Your Email</label>
+                        <input type="email" id="email" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="email" required />
+                    </div>
+
+                    <div class="mb-5 mt-2">
+                        <label for="password" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">New Password</label>
+                        <input type="password" id="password" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="password" required />
+                    </div>
+
+                    <div class="mb-5 mt-2">
+                        <label for="contact" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Contact</label>
+                        <input type="contact" id="contact" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="contact" required />
+                    </div>
+
+                    <div class="mb-5 mt-2">
+                        <label for="about" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">About</label>
+                        <textarea id="about" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" placeholder="Write Somthing about you......." required ></textarea>
+                    </div>
+
+                    <div class="flex items-start mb-5">
+                        <div class="flex items-center h-5">
+                          <input id="remember" type="checkbox" value="" class="w-4 h-4 border border-gray-300 rounded bg-gray-50 focus:ring-3 focus:ring-blue-300 dark:bg-gray-700 dark:border-gray-600 dark:focus:ring-blue-600 dark:ring-offset-gray-800 dark:focus:ring-offset-gray-800" required />
+                        </div>
+                        <label for="remember" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Remember me</label>
+                    </div>
+
+                    <div class="flex justify-center">
+                        <button type="submit" class=" text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Sign up</button>
+                    </div>
+                      
+                    
+                </div>
+                
+            </div>    
+            
+            
+        
+        
     </div>
     
 </body>
